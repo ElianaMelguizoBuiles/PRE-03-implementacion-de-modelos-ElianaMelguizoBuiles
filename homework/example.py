@@ -76,4 +76,3 @@ class LinearRegression:
     def predict(self, X):
         """Predict the target for the provided data."""
         return np.matmul(X, self.coefs_) + self.intercept_
-    
